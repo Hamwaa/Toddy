@@ -58,6 +58,7 @@ $(function() {
         var ulToddy = $('.toddy-list');
         ulToddy.append(htmlString);
         $('.toggle').click(toggleTask);
+        $('.new-toddy').val('');
       });
     });
 
